@@ -2,8 +2,6 @@
 
 Product listing with EMI plans. Data from MongoDB via Express API; UI in React + Tailwind.
 
-**Workflow & code explanation:** [PROJECT_EXPLANATION_README.md](./PROJECT_EXPLANATION_README.md)
-
 ---
 
 ## Stack
