@@ -50,6 +50,3 @@ Open the app, click a product, pick variant + EMI plan, then **Proceed**.
 
 ---
 
-## Troubleshooting
-
-- **Port 5000 in use:** `netstat -ano | findstr :5000` → `taskkill /PID <pid> /F` (Windows). On Mac/Linux: `lsof -ti:5000 | xargs kill -9`
