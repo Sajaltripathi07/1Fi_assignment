@@ -9,20 +9,8 @@ const PORT = process.env.PORT || 5000;
 
 connectDB();
 
-const allowedOrigins = [
-  "http://localhost:5173",
-  "https://1-fi-assignment-nio1x8cvf-sajaltripathi07s-projects.vercel.app"
-];
-
 app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
-  methods: ["GET", "POST", "PUT", "DELETE"],
+  origin: true,
   credentials: true
 }));
 
